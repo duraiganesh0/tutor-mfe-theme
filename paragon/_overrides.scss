@@ -1,2 +1,32 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.learning-header {
+    background-color: #51247a;
+    height: 74px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    .container-xl {
+        width: 100% !important;
+        height: 100% !important;
+        .logo {
+            width: 271px !important;
+            height: 40px !important;
+        }
+        .course-title-lockup {
+            line-height: 1;
+        }
+        .text-gray-700 {
+            color: white !important;
+        }
+        .user-dropdown.dropdown {
+            .dropdown-toggle {
+                color: white !important;
+                border: none !important;
+                &:focus,&:active,&:hover {
+                    outline: unset !important;
+                    border: unset !important;
+                }
+            }
+        }
+    }
+}
