@@ -2,12 +2,15 @@
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 .learning-header {
     background-color: #51247a;
-    height: 74px;
+    height: 64px;
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white;
     .container-xl {
         width: 100% !important;
         height: 100% !important;
+        margin: 0px !important;
+        max-width: unset !important;
+        padding: 0px 40px !important;
         .logo {
             width: 271px !important;
             height: 40px !important;
@@ -22,16 +25,16 @@
             .dropdown-toggle {
                 color: white !important;
                 border: none !important;
-                &:focus,&:active,&:hover {
+                &:focus,&:active,&:hover,&::before {
                     outline: unset !important;
                     border: unset !important;
+                    background-color: unset !important;
                 }
             }
         }
     }
 }
 
-// Footer
 // Footer
 .custom-footer.footer {
     background: linear-gradient(90deg, #51247A 0%, 87%, #962A8B 100%);
