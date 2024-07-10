@@ -112,3 +112,30 @@
         }
     }
 }
+
+//site header 
+.site-header-desktop {
+    .container-fluid {
+        background-color: #51247A;
+        padding: 0 40px !important;
+        .nav-container {
+            .logo {
+                height: 40px !important;
+                width: 271px !important;
+            }
+            .nav.secondary-menu-container {
+                .menu-trigger {
+                    border: none !important;
+                    color: #fff !important;
+                    gap: 5px;
+                    &:focus,&:active,&:hover,&::before {
+                        outline: unset !important;
+                        border: unset !important;
+                        background-color: unset !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
