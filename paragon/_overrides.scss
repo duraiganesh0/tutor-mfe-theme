@@ -94,3 +94,13 @@
         }
     }
 }
+
+
+// Hide the record button
+.content-wrapper.main-container {
+    .wrapper-profile {
+        .wrapper-profile-records {
+            display: none !important;
+        }
+    }
+}
