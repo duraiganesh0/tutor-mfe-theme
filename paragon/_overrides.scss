@@ -104,3 +104,11 @@
         }
     }
 }
+
+.global-header {
+    .nav-links .secondary .nav-item {
+        .dropdown-user-menu {
+            z-index: 11;
+        }
+    }
+}
