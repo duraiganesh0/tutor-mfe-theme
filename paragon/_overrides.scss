@@ -158,3 +158,37 @@
 
     }
 }
+
+.studio-header {
+    background-color: #51247a;
+    .container-mw-xl.container-fluid {
+        .course-title-lockup {
+            .text-gray-800 {
+                color: white !important
+            }
+        }
+        [data-testid="desktop-menu"], .nav {
+            .dropdown {
+                button {
+                    color: white !important;
+                    &:hover {
+                        color: black !important;
+                    }
+                }
+            }
+            .show.dropdown {
+                button {
+                    color: black !important;
+                }
+            }
+        }
+        [aria-label="Search content"] {
+            svg {
+                fill: white !important;
+                path {
+                    fill: white !important;
+                }
+            }
+        }
+    }
+}    
