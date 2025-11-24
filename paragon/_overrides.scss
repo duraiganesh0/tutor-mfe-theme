@@ -37,6 +37,7 @@
 
 // Footer
 .custom-footer.footer {
+    height: 180px !important;
     background: linear-gradient(90deg, #51247A 0%, 87%, #962A8B 100%);
     border-top: 1px solid #c5c6c7;
     padding: 25px 10px 30px 10px;
@@ -160,7 +161,7 @@
 }
 
 .studio-header {
-    background-color: #51247a;
+    background-color: #51247a !important;
     .container-mw-xl.container-fluid {
         .course-title-lockup {
             .text-gray-800 {
