@@ -703,6 +703,8 @@ header.border-bottom #user-nav-dropdown {
     .container-fluid {
         background-color: #51247A;
         padding: 0 40px !important;
+        margin: 0 !important;
+        max-width: unset !important;
         .nav-container {
             .logo {
                 height: 40px !important;

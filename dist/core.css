@@ -2138,6 +2138,8 @@ header.border-bottom #user-nav-dropdown {
 .site-header-desktop .container-fluid {
   background-color: #51247A;
   padding: 0 40px !important;
+  margin: 0 !important;
+  max-width: unset !important;
 }
 .site-header-desktop .container-fluid .nav-container .logo {
   height: 40px !important;
@@ -5721,6 +5723,8 @@ header [data-paragon-theme-variant=dark] nav .nav-link {
 [data-paragon-theme-variant=dark] .site-header-desktop .container-fluid {
   background-color: #51247A;
   padding: 0 40px !important;
+  margin: 0 !important;
+  max-width: unset !important;
 }
 [data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .logo {
   height: 40px !important;
