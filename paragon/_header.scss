@@ -584,7 +584,7 @@ header.border-bottom #user-nav-dropdown {
 
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-.learning-header {
+#root .learning-header {
     background-color: #51247a;
     height: 64px;
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -850,7 +850,7 @@ header.border-bottom #user-nav-dropdown {
         header.border-bottom {
             nav {
                 background-color: #51247A;
-                .pgn__hyperlink.default-link {
+                .container-fluid {
                     .nav div {
                         color: white;
                     }
@@ -895,3 +895,37 @@ header.border-bottom #user-nav-dropdown {
         }
     }
 }
+#notificationIcon {
+    .notification-button {
+        &:hover {
+            background-color: unset;
+        }
+    }
+    .text-primary-500 {
+        color: white !important;
+        svg path {
+            fill: white;
+        }
+    }
+}
+.theme-toggle-button {
+    .dark-theme-icon {
+        svg path {
+            fill: white;
+        }
+    }
+    .light-theme-icon {
+        svg path {
+            fill: white;
+        }
+    }
+    .toggle-switch {
+        .slider.round {
+            background-color: #51247A;
+            border: 1px solid white;
+            top: -1px;
+            left: -1px;
+        }
+    }
+}
+  
