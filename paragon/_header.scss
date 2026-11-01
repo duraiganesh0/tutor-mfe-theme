@@ -595,6 +595,36 @@ header.border-bottom #user-nav-dropdown {
         margin: 0px !important;
         max-width: unset !important;
         padding: 0px 40px !important;
+        #notificationIcon {
+            .notification-button {
+                &:hover {
+                    background-color: unset;
+                }
+            }
+            .text-primary-500 {
+                color: white !important;
+            }
+        }
+        .theme-toggle-button {
+            .dark-theme-icon {
+                svg path {
+                    fill: white;
+                }
+            }
+            .light-theme-icon {
+                svg path {
+                    fill: white;
+                }
+            }
+            .toggle-switch {
+                .slider.round {
+                    background-color: #51247A;
+                    border: 1px solid white;
+                    top: -1px;
+                    left: -1px;
+                }
+            }
+        }
         .logo {
             width: 271px !important;
             height: 40px !important;
@@ -607,7 +637,6 @@ header.border-bottom #user-nav-dropdown {
         }
         .user-dropdown.dropdown {
             .dropdown-toggle {
-                color: white !important;
                 border: none !important;
                 &:focus,&:active,&:hover,&::before {
                     outline: unset !important;
@@ -722,7 +751,7 @@ header.border-bottom #user-nav-dropdown {
                         }
                     }
                     .text-primary-500 {
-                        color: white;
+                        color: white !important;
                     }
                 }
                 .theme-toggle-button {
@@ -813,5 +842,48 @@ header.border-bottom #user-nav-dropdown {
     background-color: #51247a !important;
     .wrapper.wrapper-r {
         background-color: #51247a !important;
+    }
+}
+
+.d-flex.flex-column.min-vh-100 {
+    .flex-grow-0.flex-shrink-0 {
+        header.border-bottom {
+            nav {
+                background-color: #51247A;
+                #notificationIcon {
+                    .nav-link {
+                        color: white;
+                    }
+                    .notification-button {
+                        &:hover {
+                            background-color: unset;
+                        }
+                    }
+                    .text-primary-500 {
+                        color: white !important;
+                    }
+                }
+                .theme-toggle-button {
+                    .dark-theme-icon {
+                        svg path {
+                            fill: white;
+                        }
+                    }
+                    .light-theme-icon {
+                        svg path {
+                            fill: white;
+                        }
+                    }
+                    .toggle-switch {
+                        .slider.round {
+                            background-color: #51247A;
+                            border: 1px solid white;
+                            top: -1px;
+                            left: -1px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
