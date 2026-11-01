@@ -699,14 +699,14 @@ header.border-bottom #user-nav-dropdown {
 }
 
 //site header 
-.site-header-desktop {
+#root .site-header-desktop {
     .container-fluid {
         background-color: #51247A;
         padding: 0 40px !important;
         margin: 0 !important;
         max-width: unset !important;
         .nav-container {
-            .logo {
+            img {
                 height: 40px !important;
                 width: 271px !important;
             }
@@ -715,9 +715,38 @@ header.border-bottom #user-nav-dropdown {
                 background-color: unset;
             }
             .nav.secondary-menu-container {
+                #notificationIcon {
+                    .notification-button {
+                        &:hover {
+                            background-color: unset;
+                        }
+                    }
+                    .text-primary-500 {
+                        color: white;
+                    }
+                }
+                .theme-toggle-button {
+                    .dark-theme-icon {
+                        svg path {
+                            fill: white;
+                        }
+                    }
+                    .light-theme-icon {
+                        svg path {
+                            fill: white;
+                        }
+                    }
+                    .toggle-switch {
+                        .slider.round {
+                            background-color: #51247A;
+                            border: 1px solid white;
+                            top: -1px;
+                            left: -1px;
+                        }
+                    }
+                }
                 .menu-trigger {
                     border: none !important;
-                    color: #fff !important;
                     gap: 5px;
                     &:focus,&:active,&:hover,&::before {
                         outline: unset !important;

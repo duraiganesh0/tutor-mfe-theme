@@ -2135,26 +2135,43 @@ header.border-bottom #user-nav-dropdown {
 .global-header .nav-links .secondary .nav-item .dropdown-user-menu {
   z-index: 11;
 }
-.site-header-desktop .container-fluid {
+#root .site-header-desktop .container-fluid {
   background-color: #51247A;
   padding: 0 40px !important;
   margin: 0 !important;
   max-width: unset !important;
 }
-.site-header-desktop .container-fluid .nav-container .logo {
+#root .site-header-desktop .container-fluid .nav-container img {
   height: 40px !important;
   width: 271px !important;
 }
-.site-header-desktop .container-fluid .nav-container .main-nav .nav-link {
+#root .site-header-desktop .container-fluid .nav-container .main-nav .nav-link {
   color: #fff;
   background-color: unset;
 }
-.site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger {
+#root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container #notificationIcon .notification-button:hover {
+  background-color: unset;
+}
+#root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container #notificationIcon .text-primary-500 {
+  color: white;
+}
+#root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .theme-toggle-button .dark-theme-icon svg path {
+  fill: white;
+}
+#root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .theme-toggle-button .light-theme-icon svg path {
+  fill: white;
+}
+#root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .theme-toggle-button .toggle-switch .slider.round {
+  background-color: #51247A;
+  border: 1px solid white;
+  top: -1px;
+  left: -1px;
+}
+#root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger {
   border: none !important;
-  color: #fff !important;
   gap: 5px;
 }
-.site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:focus, .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:active, .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:hover, .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger::before {
+#root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:focus, #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:active, #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:hover, #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger::before {
   outline: unset !important;
   border: unset !important;
   background-color: unset !important;
@@ -5720,26 +5737,43 @@ header [data-paragon-theme-variant=dark] nav .nav-link {
 [data-paragon-theme-variant=dark] .global-header .nav-links .secondary .nav-item .dropdown-user-menu {
   z-index: 11;
 }
-[data-paragon-theme-variant=dark] .site-header-desktop .container-fluid {
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid {
   background-color: #51247A;
   padding: 0 40px !important;
   margin: 0 !important;
   max-width: unset !important;
 }
-[data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .logo {
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container img {
   height: 40px !important;
   width: 271px !important;
 }
-[data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .main-nav .nav-link {
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .main-nav .nav-link {
   color: #fff;
   background-color: unset;
 }
-[data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger {
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container #notificationIcon .notification-button:hover {
+  background-color: unset;
+}
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container #notificationIcon .text-primary-500 {
+  color: white;
+}
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .theme-toggle-button .dark-theme-icon svg path {
+  fill: white;
+}
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .theme-toggle-button .light-theme-icon svg path {
+  fill: white;
+}
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .theme-toggle-button .toggle-switch .slider.round {
+  background-color: #51247A;
+  border: 1px solid white;
+  top: -1px;
+  left: -1px;
+}
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger {
   border: none !important;
-  color: #fff !important;
   gap: 5px;
 }
-[data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:focus, [data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:active, [data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:hover, [data-paragon-theme-variant=dark] .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger::before {
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:focus, [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:active, [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:hover, [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger::before {
   outline: unset !important;
   border: unset !important;
   background-color: unset !important;
