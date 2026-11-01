@@ -2236,7 +2236,7 @@ header.border-bottom #user-nav-dropdown {
 .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav {
   background-color: #51247A;
 }
-.d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .nav-link {
+.d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav .pgn__hyperlink.default-link .nav div {
   color: white;
 }
 .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .notification-button:hover {
@@ -2244,6 +2244,12 @@ header.border-bottom #user-nav-dropdown {
 }
 .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .text-primary-500 {
   color: white !important;
+}
+.d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .text-primary-500 svg path {
+  fill: white;
+}
+.d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav .secondary-nav-links .nav-link {
+  color: white;
 }
 .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav .theme-toggle-button .dark-theme-icon svg path {
   fill: white;
@@ -5879,7 +5885,7 @@ header [data-paragon-theme-variant=dark] nav .nav-link {
 [data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav {
   background-color: #51247A;
 }
-[data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .nav-link {
+[data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav .pgn__hyperlink.default-link .nav div {
   color: white;
 }
 [data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .notification-button:hover {
@@ -5887,6 +5893,12 @@ header [data-paragon-theme-variant=dark] nav .nav-link {
 }
 [data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .text-primary-500 {
   color: white !important;
+}
+[data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav #notificationIcon .text-primary-500 svg path {
+  fill: white;
+}
+[data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav .secondary-nav-links .nav-link {
+  color: white;
 }
 [data-paragon-theme-variant=dark] .d-flex.flex-column.min-vh-100 .flex-grow-0.flex-shrink-0 header.border-bottom nav .theme-toggle-button .dark-theme-icon svg path {
   fill: white;

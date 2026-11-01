@@ -850,10 +850,12 @@ header.border-bottom #user-nav-dropdown {
         header.border-bottom {
             nav {
                 background-color: #51247A;
-                #notificationIcon {
-                    .nav-link {
+                .pgn__hyperlink.default-link {
+                    .nav div {
                         color: white;
                     }
+                }
+                #notificationIcon {
                     .notification-button {
                         &:hover {
                             background-color: unset;
@@ -861,7 +863,13 @@ header.border-bottom #user-nav-dropdown {
                     }
                     .text-primary-500 {
                         color: white !important;
+                        svg path {
+                            fill: white;
+                        }
                     }
+                }
+                .secondary-nav-links .nav-link {
+                    color: white;
                 }
                 .theme-toggle-button {
                     .dark-theme-icon {
