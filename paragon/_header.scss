@@ -581,3 +581,206 @@ header.border-bottom #user-nav-dropdown {
     }
   }
 }
+
+// Use this file to define style overrides for @edx/paragon
+// This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+.learning-header {
+    background-color: #51247a;
+    height: 64px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    .container-xl {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0px !important;
+        max-width: unset !important;
+        padding: 0px 40px !important;
+        .logo {
+            width: 271px !important;
+            height: 40px !important;
+        }
+        .course-title-lockup {
+            line-height: 1;
+        }
+        .text-gray-700 {
+            color: white !important;
+        }
+        .user-dropdown.dropdown {
+            .dropdown-toggle {
+                color: white !important;
+                border: none !important;
+                &:focus,&:active,&:hover,&::before {
+                    outline: unset !important;
+                    border: unset !important;
+                    background-color: unset !important;
+                }
+            }
+        }
+    }
+}
+
+// Footer
+.custom-footer.footer {
+    height: 180px !important;
+    background: linear-gradient(90deg, #51247A 0%, 87%, #962A8B 100%);
+    border-top: 1px solid #c5c6c7;
+    padding: 25px 10px 30px 10px;
+    nav {
+        ol, ul {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            list-style-type:none;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    }
+    nav.nav-colophon {
+        margin: 5px 0 30px 0;
+        .nav-colophon-01 {
+            margin-right: 15px;
+        }
+        li a {
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            &:hover {
+                border-bottom: 1px dotted #1e72c6;
+            }
+        }
+    }
+    .copyright {
+        padding: 0;
+        margin: -2px 0 8px 0;
+        font-size: 0.6875em;
+        color: white;
+        text-align: left;
+    }
+    .nav-legal {
+        .nav-legal-01 {
+            margin-right: 5px;
+        }
+        li a {
+            color: #fff;
+            font-size: 0.6875em;
+            display: inline-block;
+            text-decoration: none;
+            &:hover {
+                border-bottom: 1px dotted #1e72c6;
+            }
+        }
+    }
+    .nav-legal-cricos {
+        color: #d4c8de;
+        font-size: 16px;
+        padding-top: 10px;
+        abbr {
+            border-bottom: 1px dotted;
+            text-decoration: none;
+        }
+    }
+}
+
+
+// Hide the record button
+.content-wrapper.main-container {
+    .wrapper-profile {
+        .wrapper-profile-records {
+            display: none !important;
+        }
+    }
+}
+
+.global-header {
+    .nav-links .secondary .nav-item {
+        .dropdown-user-menu {
+            z-index: 11;
+        }
+    }
+}
+
+//site header 
+.site-header-desktop {
+    .container-fluid {
+        background-color: #51247A;
+        padding: 0 40px !important;
+        .nav-container {
+            .logo {
+                height: 40px !important;
+                width: 271px !important;
+            }
+            .main-nav .nav-link {
+                color: #fff;
+                background-color: unset;
+            }
+            .nav.secondary-menu-container {
+                .menu-trigger {
+                    border: none !important;
+                    color: #fff !important;
+                    gap: 5px;
+                    &:focus,&:active,&:hover,&::before {
+                        outline: unset !important;
+                        border: unset !important;
+                        background-color: unset !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// footer
+.footer {
+    background-color: #51247A !important;
+    height: 100px !important;
+    .container-fluid {
+        height: auto !important;
+        a {
+            height: auto !important;
+            img {
+                height: 45px !important;
+            }
+        }
+
+    }
+}
+
+.studio-header {
+    background-color: #51247a !important;
+    .container-fluid {
+        .course-title-lockup {
+            .text-gray-800 {
+                color: white !important
+            }
+        }
+        [data-testid="desktop-menu"], .nav {
+            .dropdown {
+                button {
+                    color: white !important;
+                    &:hover {
+                        color: black !important;
+                    }
+                }
+            }
+            .show.dropdown {
+                button {
+                    color: black !important;
+                }
+            }
+        }
+        [aria-label="Search content"] {
+            svg {
+                fill: white !important;
+                path {
+                    fill: white !important;
+                }
+            }
+        }
+    }
+}
+
+.studio-header-widget {
+    background-color: #51247a !important;
+    .wrapper.wrapper-r {
+        background-color: #51247a !important;
+    }
+}
