@@ -645,7 +645,6 @@ header.border-bottom #user-nav-dropdown {
                 &:focus,&:active,&:hover,&::before {
                     outline: unset !important;
                     border: unset !important;
-                    background-color: unset !important;
                 }
             }
         }
@@ -784,7 +783,6 @@ header.border-bottom #user-nav-dropdown {
                     &:focus,&:active,&:hover,&::before {
                         outline: unset !important;
                         border: unset !important;
-                        background-color: unset !important;
                     }
                 }
             }

@@ -2093,7 +2093,6 @@ header.border-bottom #user-nav-dropdown {
 #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle:focus, #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle:active, #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle:hover, #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle::before {
   outline: unset !important;
   border: unset !important;
-  background-color: unset !important;
 }
 .custom-footer.footer {
   height: 180px !important;
@@ -2195,7 +2194,6 @@ header.border-bottom #user-nav-dropdown {
 #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:focus, #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:active, #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:hover, #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger::before {
   outline: unset !important;
   border: unset !important;
-  background-color: unset !important;
 }
 .footer {
   background-color: #51247A !important;
@@ -5767,7 +5765,6 @@ header [data-paragon-theme-variant=dark] nav .nav-link {
 [data-paragon-theme-variant=dark] #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle:focus, [data-paragon-theme-variant=dark] #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle:active, [data-paragon-theme-variant=dark] #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle:hover, [data-paragon-theme-variant=dark] #root .learning-header .container-xl .user-dropdown.dropdown .dropdown-toggle::before {
   outline: unset !important;
   border: unset !important;
-  background-color: unset !important;
 }
 [data-paragon-theme-variant=dark] .custom-footer.footer {
   height: 180px !important;
@@ -5869,7 +5866,6 @@ header [data-paragon-theme-variant=dark] nav .nav-link {
 [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:focus, [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:active, [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger:hover, [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container .menu-trigger::before {
   outline: unset !important;
   border: unset !important;
-  background-color: unset !important;
 }
 [data-paragon-theme-variant=dark] .footer {
   background-color: #51247A !important;
