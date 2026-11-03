@@ -4987,6 +4987,9 @@ div.pgn__data-table-layout-wrapper .pgn__data-table-layout-sidebar .pgn__form-la
 div.pgn__data-table-layout-wrapper .pgn__data-table-layout-sidebar .pgn__checkbox-filter-label {
   font-size: 14px;
 }
+#dashboard-content .container-fluid .sidebar-column.not-collapsed {
+  display: none;
+}
 [data-paragon-theme-variant=dark] #root {
   position: relative;
   z-index: 1;

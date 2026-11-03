@@ -280,3 +280,7 @@ div.pgn__data-table-layout-wrapper {
     }
   }
 }
+
+#dashboard-content .container-fluid .sidebar-column.not-collapsed {
+  display: none;
+}
