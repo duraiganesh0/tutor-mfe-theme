@@ -746,6 +746,9 @@ header.border-bottom #user-nav-dropdown {
                 color: #fff;
                 background-color: unset;
             }
+            .main-nav .nav-link:last-child {
+                display: none;
+            }
             .nav.secondary-menu-container {
                 #notificationIcon {
                     .notification-button {

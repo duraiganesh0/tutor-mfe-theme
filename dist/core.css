@@ -2169,6 +2169,9 @@ header.border-bottom #user-nav-dropdown {
   color: #fff;
   background-color: unset;
 }
+#root .site-header-desktop .container-fluid .nav-container .main-nav .nav-link:last-child {
+  display: none;
+}
 #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container #notificationIcon .notification-button:hover {
   background-color: unset;
 }
@@ -5840,6 +5843,9 @@ header [data-paragon-theme-variant=dark] nav .nav-link {
 [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .main-nav .nav-link {
   color: #fff;
   background-color: unset;
+}
+[data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .main-nav .nav-link:last-child {
+  display: none;
 }
 [data-paragon-theme-variant=dark] #root .site-header-desktop .container-fluid .nav-container .nav.secondary-menu-container #notificationIcon .notification-button:hover {
   background-color: unset;
